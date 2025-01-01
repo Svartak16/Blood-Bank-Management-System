@@ -305,6 +305,7 @@ router.get('/upcoming', async (req, res) => {
   try {
     connection = await pool.getConnection();
     
+    // Modify query to exclude current date
     const [results] = await connection.query(`
       SELECT 
         c.id,
@@ -318,7 +319,7 @@ router.get('/upcoming', async (req, res) => {
         TIME_FORMAT(cs.end_time, '%H:%i') as end_time
       FROM campaigns c
       JOIN campaign_sessions cs ON c.id = cs.campaign_id
-      WHERE cs.date >= CURDATE()
+      WHERE cs.date > CURDATE()
       ORDER BY cs.date, cs.start_time
     `);
 
