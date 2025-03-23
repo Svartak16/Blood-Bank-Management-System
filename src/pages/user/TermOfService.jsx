@@ -160,17 +160,17 @@ const TermsOfService = () => {
                 {[
                   {
                     label: 'Email',
-                    value: 'intech@lifelinkbloodbank.com',
+                    value: 'abc@lifelinkbloodbank.com',
                     bg: 'bg-blue-50'
                   },
                   {
                     label: 'Phone',
-                    value: '07-123 4567',
+                    value: '8452639876',
                     bg: 'bg-green-50'
                   },
                   {
                     label: 'Address',
-                    value: '12, 11/5 Jalan Johor, 79100 Johor Bahru, Johor, Malaysia',
+                    value: '12, 11/5 Dombivali East, 79100 Juhu, Mumbai, India',
                     bg: 'bg-purple-50'
                   }
                 ].map((contact, index) => (

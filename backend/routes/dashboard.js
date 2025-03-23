@@ -3,6 +3,9 @@ const express = require('express');
 const router = express.Router();
 const pool = require('../config/database');
 
+// Default route
+router.get('/', (req, res) => res.json({ message: 'Dashboard data loaded' }));
+
 router.get('/notifications', async (req, res) => {
     let connection;
     try {

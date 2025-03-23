@@ -162,8 +162,8 @@ const [notificationPreferences, setNotificationPreferences] = useState({
 const [profileMessage, setProfileMessage] = useState({ text: '', type: '' });
 const [passwordMessage, setPasswordMessage] = useState({ text: '', type: '' });
 const JOHOR_AREAS = [
-  "Johor Bahru", "Muar", "Batu Pahat", "Kluang", "Pontian", 
-  "Segamat", "Kota Tinggi", "Mersing", "Kulai", "Tangkak"
+  "Kharghar", "Mumbai", "Panvel", "Dombivali", "Taloja", 
+  "Kalyan", "Thane", "Dadar", "Vashi", "Nerul"
 ];
 
 const TabGroup = () => (

@@ -38,8 +38,8 @@ const Register = () => {
   const [showBloodTypeInfo, setShowBloodTypeInfo] = useState(false);
 
   const JOHOR_AREAS = [
-    "Johor Bahru", "Muar", "Batu Pahat", "Kluang", "Pontian",
-    "Segamat", "Kota Tinggi", "Mersing", "Kulai", "Tangkak"
+    "Kharghar", "Mumbai", "Panvel", "Dombivali", "Taloja",
+    "Kalyan", "Thane", "Dadar", "Vashi", "Nerul"
   ];
 
   const handleChange = (e) => {

@@ -110,14 +110,14 @@ const AboutUs = () => {
                 <div className="flex items-start group">
                   <MapPin className="w-5 h-5 text-red-600 mt-1 mr-4 group-hover:text-red-500" />
                   <p className="text-gray-600 leading-relaxed">
-                    12, 11/5 Jalan Johor,<br />
-                    79100 Johor Bahru,<br />
-                    Johor, Malaysia
+                    12, 11/5 Dombivali East,<br />
+                    79100 Juhu,<br />
+                    Mumbai,India
                   </p>
                 </div>
                 {[
-                  { icon: Phone, text: "+60 7-123 4567" },
-                  { icon: Mail, text: "intech@lifelinkbloodbank.com" },
+                  { icon: Phone, text: "+91 8452639876" },
+                  { icon: Mail, text: "abc@lifelinkbloodbank.com" },
                   { icon: Clock, text: "Monday - Sunday: 8:00 AM - 6:00 PM" }
                 ].map((item, index) => (
                   <div key={index} className="flex items-center group">

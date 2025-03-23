@@ -100,7 +100,7 @@ const BackToTop = () => {
         </button>
       )}
 
-      <style jsx>{`
+      <style>{`
         @keyframes bounce-gentle {
           0%, 100% { transform: translateY(0); }
           50% { transform: translateY(-4px); }

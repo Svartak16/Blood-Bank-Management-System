@@ -35,8 +35,8 @@ const Footer = () => {
   const contactInfo = [
     {
       icon: <Phone className="h-5 w-5" />,
-      text: '+60 11-123 4567',
-      href: 'tel:+60111234567'
+      text: '+91 8452639876',
+      href: 'tel:+918452639875'
     },
     {
       icon: <Mail className="h-5 w-5" />,
@@ -45,7 +45,7 @@ const Footer = () => {
     },
     {
       icon: <MapPin className="h-5 w-5" />,
-      text: 'Johor Bahru, Malaysia',
+      text: 'Mumbai,India',
       href: 'https://maps.google.com'
     }
   ];
@@ -183,7 +183,7 @@ const Footer = () => {
             </div>
             <p className="text-gray-500 text-center">
               © {new Date().getFullYear()} LifeLink Blood Bank. Made with{' '}
-              <Heart className="h-4 w-4 inline text-red-500 animate-pulse" /> in Malaysia
+              <Heart className="h-4 w-4 inline text-red-500 animate-pulse" /> in India
             </p>
           </div>
         </div>

@@ -75,16 +75,16 @@ const DeleteConfirmationModal = ({ bank, onConfirm, onCancel }) => (
     );
 
     const JOHOR_AREAS = [
-        "Johor Bahru",
-        "Muar",
-        "Batu Pahat",
-        "Kluang",
-        "Pontian",
-        "Segamat",
-        "Kota Tinggi",
-        "Mersing",
-        "Kulai",
-        "Tangkak"
+        "Kharghar",
+        "Mumbai",
+        "Panvel",
+        "Dombivali",
+        "Taloja",
+        "Kalyan",
+        "Thane",
+        "Dadar",
+        "Vashi",
+        "Nerul"
     ];
 
     // Fetch blood banks

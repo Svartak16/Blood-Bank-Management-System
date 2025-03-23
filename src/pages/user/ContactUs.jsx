@@ -46,13 +46,13 @@ const ContactUs = () => {
     {
       icon: MapPin,
       title: "Our Location",
-      content: ["12, 11/5 Jalan Johor", "79100 Johor Bahru", "Johor, Malaysia"]
+      content: ["12, 11/5 Dombivali East", "79100 Juhu", "Mumbai, India"]
     },
     {
       icon: Phone,
       title: "Phone",
-      content: ["07-123 4567"],
-      emergency: "Emergency: 07-987 6543"
+      content: ["8452639876"],
+      emergency: "Emergency: 8452639876"
     },
     {
       icon: Mail,

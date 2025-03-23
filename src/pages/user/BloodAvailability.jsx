@@ -114,7 +114,7 @@ const BloodSearch = () => {
                 onChange={(e) => setSelectedArea(e.target.value)}
                 className="block w-full pl-10 pr-3 py-3 text-base border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-shadow"
               >
-                <option value="">Select District in Johor Bahru</option>
+                <option value="">Select District in Maharashtra</option>
                 {areas.map((area) => (
                   <option key={area} value={area}>{area}</option>
                 ))}

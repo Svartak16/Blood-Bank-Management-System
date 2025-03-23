@@ -50,7 +50,7 @@ export const AdminRoute = ({ children, requiredPermission }) => {
 
         // Check specific permission for regular admin
         if (requiredPermission) {
-          const response = await fetch('http://localhost:5000/api/admin/users/permissions', {
+          const response = await fetch (`${process.env.VITE_API_URL}/admin/users/permissions`, {
             headers: {
               'Authorization': `Bearer ${sessionStorage.getItem('token')}`
             }

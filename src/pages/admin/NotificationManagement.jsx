@@ -51,8 +51,8 @@ import NotificationList from './NotificationList';
 
     const BLOOD_TYPES = ['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-'];
     const AREAS = [
-      "Johor Bahru", "Muar", "Batu Pahat", "Kluang", "Pontian", 
-      "Segamat", "Kota Tinggi", "Mersing", "Kulai", "Tangkak"
+      "Kharghar", "Mumbai", "Panvel", "Dombivali", "Taloja", 
+      "Kalyan", "Thane", "Dadar", "Vashi", "Nerul"
     ];
 
     const FilterSection = ({ filters, setFilters, recipientCount }) => {

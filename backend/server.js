@@ -11,10 +11,12 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000', // Your frontend URL
+  origin:[ 'http://localhost:3000', 'http://127.0.0.1:3000'],//front and backend url
+  methods: "GET,POST,PUT,DELETE",
   credentials: true
 }));
 app.use(express.json());
+
 
 const bloodBankRoutes = require('./routes/bloodBank');
 app.use('/api/blood-banks', bloodBankRoutes);
@@ -40,7 +42,7 @@ app.get('/api/test', (req, res) => {
 // Auth routes
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/campaigns', campaignRoutes);
-app.use('/api/dashboard', dashboardRoutes);
+app.use('/api/dashboard', require('./routes/dashboard'));
 app.use('/api/messages', messagesRoutes);
 app.use('/api/notifications', require('./routes/notifications'));
 app.use('/api/user', authMiddleware, require('./routes/user'));
